@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furry Friend..</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+<div id="clickMe">
+    Show me the Furry Friend of the Day
+</div>
+<div id="picframe">
+    <img src="image/images/furry_friend.jpg" alt="...">
+</div>
+
+<script>
+    $(document).ready(function (){
+        $("#clickMe").click(function (){
+            $("#picframe").slideToggle("10000");
+        });
+    });
+</script>
+</body>
+</html>
